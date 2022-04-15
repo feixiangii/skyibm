@@ -40,7 +40,7 @@ if [ ! -f "./config/v2ray" ]; then
 #    wget -q -Ov2ray.zip https://github.com/v2fly/v2ray-core/releases/download/v${new_ver}/v2ray-linux-64.zip
 
     new_ver=$(curl -s https://github.com/XTLS/Xray-core/releases/latest | grep -Po "(\d+\.){2}\d+")
-    wget -q -Oxray.zip https://github.com/XTLS/Xray-core/releases/download/v${new_ver}/v2ray-linux-64.zip
+    wget -q -Oxray.zip https://github.com/XTLS/Xray-core/releases/download/v${new_ver}/Xray-linux-64.zip
     
     if [ $? -eq 0 ]; then
 #        7z x v2ray.zip v2ray v2ctl *.dat
