@@ -1,5 +1,6 @@
-config/v2ctl
-config/v2ray
+#config/v2ctl
+#config/v2ray
+config/xray
 config/geoip.dat
 config/geosite.dat
 Bluemix_CLI
